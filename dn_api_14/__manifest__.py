@@ -3,15 +3,22 @@
     'name': "Odoo 14 Rest Api (Json)",
 
     'summary': """
-        This module to akses odoo via rest api""",
+        This module to akses odoo via rest api with dynamic concept""",
 
     'description': """
+        Module to integration odoo with other system, to using this module you bust be setting in odoo.conf
+        
         1) Open odoo.conf
         2) Add 'dbfilter = dbname'.
         3) Restart odoo service.
+        4) Test api with tools (ex: postman).
+
+    Any questions?
+    Want to test this module?
+    Email me: nra.junior26@gmail.com 
     """,
 
-    'author': "R4Y Jr",
+    'author': "NRA",
     'website': "-",
 
     # Categories can be used to filter modules in modules listing
@@ -21,7 +28,7 @@
     'price': 100,
     'currency': 'EUR',
     'version': '14.0',
-    'support': 'rayci232@gmail.com',
+    'support': 'nra.junior26@gmail.com ',
 
     # any module necessary for this one to work correctly
     'depends': ['base'],
